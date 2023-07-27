@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <header>
+            <div class="content">
+                <div id="title">
+                    <h1><span class="highlight">TeamSeeker - Find Teammate</span> </h1>
+                </div>
+                <nav>
+                    <a href="">ACCOUNT</a>
+                    
+                </nav>
+            </div>
+        </header>
+    </div>
+    <section id="showcase">
+        <div class="content">
+            <h1>Find Teammate</h1>
+            <p>
+                Struggling to Find Teammate?
+                <br>
+                <br>
+                Do not Worry!
+                <br>
+                <br>
+                Here you can find your project partner.
+                <br>
+            </p>
+
+        </div>
+    </section>
+    <section id="welcome">
+
+        <h1>
+            <marquee>WELCOME!</marquee>
+        </h1>
+
+    </section>
+
+    <section id="boxes">
+        <div class="content">
+            <div class="box1">
+                <h3>Choose your Partner from here.</h3>
+                <div id="search">
+                    <button onclick="myFunction()">CLICK HERE!</button>
+                  </div>
+            </div>
+            <div class="box2">
+                <h3>Competition</h3>
+                <div id="submit">
+                    <button id="quiz">CLICK HERE!</button>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <p>
+            <div class="footer">
+
+
+                <div class="contain">
+
+
+                    <h2 id="h1footer">
+
+
+                        © TeamSeeker - find Teammate 
+                    </h2>
+                    <div class="col">
+                        <ul id="list">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>   
+                            
+                            <hr>
+
+                            <li><a href="#">Terms and conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookie policy</a></li>
+                            
+                            <hr>
+
+                            <li>Follow Us: 
+                                <br>
+                                <ul id="media">
+                                    <li><a href="#"> Facebook </a></li>
+                                    <li><a href="#">Instagram </a></li>
+                                    <li><a href="#">Twitter </a> </li>
+                            </ul>
+                            </li>
+                     
+                            <hr>
+
+                            <li>
+                                <button id="logout" onclick="logout()">Logout</button>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </p>
+    </footer>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+    <script src="firebase.js"></script>
+    <script src="homepage.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Signup</title>
+
+    <link rel="stylesheet" type="text/css" href="login.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 class="header">TeamSeeker - Find Teammate</h1>
+    </div>
+    <div class="login-page">
+        <div class="form">
+            <form onsubmit="signUp()" id="loginForm" class="register-form">
+                <input  id="email" type="text" placeholder="Email" />
+                <input id="password" type="password" placeholder="Password" />
+                <button type="submit">Register</button>
+                <p class="message">Already registered? <a href="login.html">Sign In</a></p>
+            </form>
+        </div>
+    </div>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+    
+        <script src="firebase.js"></script>
+        <script src="signup.js"></script>
+</body>
+
+</html>
